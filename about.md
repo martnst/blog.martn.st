@@ -4,22 +4,7 @@ title: About Long Haul
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with <a href="http://sass-lang.com/">SASS</a> + <a href="http://compass-style.org/">COMPASS</a></li>
-  		<li>Layout with <a href="http://susy.oddbird.net/">SUSY Grid</a></li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+	<h1 class="pageTitle">About this blog</h1>
+	<p class="intro">Here <a href="http://martn.st">I</a> write about topics, issues and ideas that tangent me in any way and I feel it's worth putting out.</p>
+	<p>If postings appear random, that's by design, as I do not want to have this blog to focus on a particluar topic. I am happy to receive any feedback.</p>
 </div>

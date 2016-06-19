@@ -1,10 +1,10 @@
-title: Long Haul
+title: '&lt;blog/&gt;'
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: http://brianmaierjr.github.com/long-haul
+url: ""
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate_path: "posts/page:num/"
+permalink: posts/:slug/
 
 markdown: redcarpet
 highlighter: rouge
@@ -13,16 +13,16 @@ paginate: 5
 
 navigation:
  - title: Home
-   url: /index.html
+   url: /
  - title: About
    url: /about
- - title: Contact
-   url: /contact
+ # - title: Contact
+   # url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: martnst
+   twitter: martn_st
+   # facebook: 
+   email: hi@martn.st 
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
