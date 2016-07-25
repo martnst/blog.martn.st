@@ -1,4 +1,4 @@
-title: '&lt;blog/&gt;'
+title: ''
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: ""
@@ -14,10 +14,9 @@ paginate: 5
 navigation:
  - title: Home
    url: /
- - title: About
-   url: /about
- # - title: Contact
-   # url: /contact
+ - title: Blog
+   url: http://blog.martn.st
+
 
 social:
    github: martnst
