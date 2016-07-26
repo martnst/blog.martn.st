@@ -11,27 +11,24 @@ title: About Martin Stemmle
     <h2>Martin Stemmle</h2>
     <span>, Freelancer, Indi-Developer and Co-Founder based in Berlin.</span>
     <p>I mostly focus on iOS and Mac apps. However, I am open to all sorts of cool new stuff.</p>
-
   </div>
 </header>
-
 
 
 <section>
   <h2>I like to divide my work into three scopes</h2>
   <p>Focus is always changing back and forth from time to time.</p>
-
   <div class="column-one-third">
       <div class="box">
           <h3>Freelancing</h3>
-          <p>As a freelancer I focus on iOS development, but I am also open to new opportunities. <a href="#client-apps" class="inline">Check out</a> the apps I have been part of the team. Or <a href="#contact" class="inline">get in touch</a> if you are looking for developers for your next awesome project.</p>
+          <p>As a freelancer I focus on iOS development, but I am also open to new opportunities. <a href="http://madeby.martn.st/#client-apps" class="inline">Check out</a> the apps I have been part of the team. Or <a href="#contact" class="inline">get in touch</a> if you are looking for developers for your next awesome project.</p>
       </div>
   </div>
   <div class="column-one-third">
       <div class="box">
           <h3>Indi-Development</h3>
           <p>I have always enjoyed building things. By learning how to write software and build apps in particular I have opened up a whole new world for that.</p>
-          <p>For <a href="#client-apps" class="inline">my own projects</a> I mostly look for ideas that can be build rather easily by still creating something useful (and eventually even valuable). Furthermore the projects have to be maintainable as a side project on my own.</p>
+          <p>For <a href="http://madeby.martn.st/" class="inline">my own projects</a> I mostly look for ideas that can be build rather easily by still creating something useful (and eventually even valuable). Furthermore the projects have to be maintainable as a side project on my own.</p>
           <p>However, I am also open to join or contribute to (open source) projects if they are appealing to me. That being said, feel free to <a href="#contact" class="inline">get in touch</a> about any projects.</p>
       </div>
   </div>
