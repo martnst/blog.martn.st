@@ -13,11 +13,12 @@ paginate: 5
 
 navigation:
  - title: Home
+   url: http://martn.st
+ - title: Projects
    url: /
- - title: About
-   url: /about
- # - title: Contact
-   # url: /contact
+ - title: Blog
+   url: http://blog.martn.st
+
 
 social:
    github: martnst
