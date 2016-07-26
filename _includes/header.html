@@ -1,7 +1,7 @@
  <div class="header">
     <div id="googlemaps"></div>
     <!-- Include the Google Maps API library - required for embedding maps -->
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBlYU4K1Omu4kXWgGcN7JGqOOilPFGBCL8"></script>
      
     <script type="text/javascript">
      
@@ -75,15 +75,13 @@
             mapTypeControl: false,
             zoomControl: false,
             rotateControl: false, 
-            mapTypeId: [google.maps.MapTypeId.ROADMAP, customMapTypeId],
+            // mapTypeId: [google.maps.MapTypeId.ROADMAP, customMapTypeId],
             center: latLng
         };
      
-        map = new google.maps.Map(document.getElementById('googlemaps'),
-            mapOptions);
-
-          map.mapTypes.set(customMapTypeId, customMapType);
-          map.setMapTypeId(customMapTypeId);
+        map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
+        map.mapTypes.set(customMapTypeId, customMapType);
+        map.setMapTypeId(customMapTypeId);
     }
      
     google.maps.event.addDomListener(window, 'load', showGoogleMaps);
