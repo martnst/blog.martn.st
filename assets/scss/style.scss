@@ -32,6 +32,38 @@
 // If IE support is needed you can add them here or create another stylesheet for specific IE fixes
 
 
-@import "about"
+@import "about";
+
+#googlemaps, #googlempasoverlay { 
+  background-color: #2f3360;
+  height: 100%; 
+  width: 100%; 
+  position:absolute !important; 
+  top: 0; 
+  left: 0; 
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+#googlempasoverlay {
+  background-color: rgba(0,0,0,0);
+}
+
+@media only screen and (min-width: 800px) { 
+  .header .container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+60&0.75+0,0+60 */
+    background: -moz-linear-gradient(left, #2f3360 15%, rgba(0,0,0,0) 60%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #2f3360 15%,rgba(0,0,0,0) 60%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2f3360 15%,rgba(0,0,0,0) 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+    border-radius: 10px; 
+    padding: 10px;
+  }
+}
 
 
+@media only screen and (max-width: 799px) { 
+  #googlemaps, #googlempasoverlay { 
+    display: none;
+  }
+}
