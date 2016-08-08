@@ -18,9 +18,9 @@ Here is a list of some apps I checked out:
 - [MyStuff2 - Home Inventory and Database](https://itunes.apple.com//app/mystuff2-home-inventory-database/id354735594?mt=8)
 
 
-Recently I came across this [post on reddit](https://www.reddit.com/r/declutter/comments/4uz0nk/version_controlling_my_things) of [somebody wanning to version controll his stuff on github](https://github.com/justmytwospence/things). 
+Recently I came across this [post on reddit](https://www.reddit.com/r/declutter/comments/4uz0nk/version_controlling_my_things) of [somebody wanting to version control his stuff on github](https://github.com/justmytwospence/things). 
 
-Being a developer it caught my attention right away. "Hhmm, " I thought, "having not just a list of all my things, but also a history of when I got rid of stuff would be kinda cool." So the post on reddit actually added some extra inspiration to develop an inventory app for people having a minimal interest in a minimalism live style like me. **
+Being a developer it caught my attention right away. "Hhmm, " I thought, "having not just a list of all my things, but also a history of when I got rid of stuff would be kinda cool." So the post on reddit actually added some extra inspiration to develop an inventory app for people having a minimal interest in a minimalism live style like me. 
 
 **With this blog post on the one hand I want to gather my ideas on such an app. On the other hand I would like to get some feedback on those ideas.**
 
