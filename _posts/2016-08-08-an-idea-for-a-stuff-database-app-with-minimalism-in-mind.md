@@ -52,7 +52,7 @@ As a minimalist the most fun part probably would be to delete items from your st
 - marked as donated (including what organisation to) 
 - marked as trashed
 
-Just mentioning it for the sake of completion: There should also be an optoin to actually delete items without marking a removal type e.g. for deleting test or accidental entries. 
+Just mentioning it for the sake of completion: There should also be an option to actually delete items without marking a removal type e.g. for deleting test or accidental entries. 
 
 <a name="reporting">
 ## Reporting 
@@ -77,7 +77,7 @@ Last but not least how about something like *shake the device to show a random i
 ## Extras
 Here are some additional thoughts / ideas: 
 
-- Keep track you what items are lent to whom including a summary view by sorted by items or persons. 
+- Keep track of which items you lent to whom including a summary view sorted by items or persons. 
 - Quick entry of items by simply adding a photo (and filling the details later on)
 - Ability to enter removals of items that are not present in the app yet. This would create a new item and mark it as removed right all in one step. 
 - Product database with picture and pricing details + Barcode scanner for quick entry
