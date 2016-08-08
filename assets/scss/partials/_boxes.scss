@@ -1,0 +1,50 @@
+.column-one-third {
+    width: 32.9%;
+    /*margin-right: 1%;*/
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-one-third {
+        width: 99%;
+        margin-bottom: 1%;
+    }
+}
+
+
+
+.box {
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding: 0.5em;
+    display: block;
+
+    min-height: 145px;
+    margin-top: 20px; 
+    margin-right: 10px;
+    border: 1px dotted rgb(163, 163, 163);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 7px;
+
+    &:hover {
+        border: 1px solid rgb(163, 163, 163);
+        background-color: #fbfbfb;
+    }
+}
+
+
+
+a.box p {
+    color: rgb(163, 163, 163);
+}
+
+a.box:hover {
+    border: 1px solid #222;
+}
+
+
+a.box:hover p {
+    color: #000;
+}

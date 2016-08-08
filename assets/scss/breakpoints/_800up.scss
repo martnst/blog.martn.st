@@ -13,7 +13,7 @@ GLOBAL STYLES
 		content: ""; 
 		display: block;
 		width: 100%;
-		height: 5em;
+		height: 7em;
 		position: absolute;
 		top: -2em;
 		left: 0;
@@ -27,7 +27,7 @@ GLOBAL STYLES
 }
 
 .container {
-	@include container(800px); 
+	@include container(1200px); 
 	padding: 0;
 }
 
@@ -213,7 +213,7 @@ FOOTER STYLES
 
 	.container {
 		padding: 1rem 0;
-		@include container(800px);
+		@include container(1200px);
 	}
 }
 
