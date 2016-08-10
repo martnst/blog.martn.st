@@ -16,6 +16,8 @@ Here is a list of some apps I checked out:
 - [Home Inventory](http://binaryformations.com/products/home-inventory/) for Mac with iPhone Helper apps
 - [mein Inventar](https://itunes.apple.com/de/app/mein-inventar/id431851303?mt=8)
 - [MyStuff2 - Home Inventory and Database](https://itunes.apple.com//app/mystuff2-home-inventory-database/id354735594?mt=8)
+- [Klaser - Stuff Organizer](https://itunes.apple.com//app/id868695250)
+- [Sortly - Moving, Organizing & Inventory](https://itunes.apple.com/app/id529353551)
 
 
 Recently I came across this [post on Reddit](https://www.reddit.com/r/declutter/comments/4uz0nk/version_controlling_my_things) of [somebody wanting to version control his stuff on github](https://github.com/justmytwospence/things). 
