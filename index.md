@@ -9,7 +9,7 @@ title: Stuff made by Martin Stemmle
       <img class="appicon" style="float: left; margin-right: 1em" width="125" height="125" alt="CINEPASS - Kino, Kinoprogramm, Filmempfehlungen und Trailer" src="http://a5.mzstatic.com/us/r30/Purple30/v4/7c/3f/b2/7c3fb2f8-8145-ff86-9e17-94a808ea31e6/icon175x175.png">
       <div>
       <h3>Foody </h3>
-      <p class=" " style="height: auto;">Foody is a Food and Symptom Tracker for your iPhone - which I am still working on. <br> You are welcome to sign up for the beta.</p>
+      <p class=" " style="height: auto;">Foody is a food and symptom diary app to help understand diet related health issues. </p>
       </div>
   </a>
   <a class="box" href="http://msmix.de/apps/Birthdays" style="opacity: 1;">
