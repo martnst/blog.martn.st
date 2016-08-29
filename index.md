@@ -21,7 +21,8 @@ title: About Martin Stemmle
   <div class="column-one-third">
       <div class="box">
           <h3>Freelancing</h3>
-          <p>As a freelancer I focus on iOS development, but I am also open to new opportunities. <a href="http://madeby.martn.st/#client-apps" class="inline">Check out</a> the apps I have been part of the team. Or <a href="#contact" class="inline">get in touch</a> if you are looking for developers for your next awesome project.</p>
+          <p>As a freelancer I focus on native iOS development, however I am also open to new opportunities. Check out my <a href="/skills-and-tools" class="inline">skills and tools</a> I am familiar with as well as the <a href="http://madeby.martn.st/#client-apps" class="inline">apps &amp; projects</a> I have been part of the team. </p>
+          <p><a href="mailto:martin@martn.st" class="inline">Get in touch</a> if you are looking for developers for your next awesome project. 
       </div>
   </div>
   <div class="column-one-third">
@@ -29,7 +30,7 @@ title: About Martin Stemmle
           <h3>Indi-Development</h3>
           <p>I have always enjoyed building things. By learning how to write software and build apps in particular I have opened up a whole new world for that.</p>
           <p>For <a href="http://madeby.martn.st/" class="inline">my own projects</a> I mostly look for ideas that can be build rather easily by still creating something useful (and eventually even valuable). Furthermore the projects have to be maintainable as a side project on my own.</p>
-          <p>However, I am also open to join or contribute to (open source) projects if they are appealing to me. That being said, feel free to <a href="#contact" class="inline">get in touch</a> about any projects.</p>
+          <p>However, I am also open to join or contribute to (open source) projects if they are appealing to me. That being said, feel free to <a href="mailto:hi@martn.st" class="inline">get in touch</a> about any projects.</p>
       </div>
   </div>
   <div class="column-one-third">
