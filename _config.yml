@@ -26,3 +26,7 @@ social:
    email: hi@martn.st 
 
 # google_analytics: "UA-58263416-1"
+
+# ExternalLinks plugin:
+remoteUrl: martn.st
+localUrl: localhost:4000
