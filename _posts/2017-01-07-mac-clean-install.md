@@ -55,6 +55,9 @@ run `gem install bundler`, optionally check <http://bundler.io> for details
 #### Oh-My-Zsh
 follow install instructions here: <http://ohmyz.sh>
 
+#### Things
+install optional Things Helper from <https://culturedcode.com/things/mac/help/things-sandboxing-helper-download/>
+
 
 ## Restoring App's preferences 
 
