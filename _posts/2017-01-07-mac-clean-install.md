@@ -42,20 +42,19 @@ I have created a [gist](https://gist.github.com/martnst/ed66ff9f5ac73878254ab4b2
 
 Unfortunately some installations still need to be done manually: 
 
-#### 1Password:
-
+#### {{ '1Password' | add_app_icon }}
 - Safarie extension: <https://agilebits.com/onepassword/extensions>
 
-#### rvm 
+#### {{ 'rvm' | add_app_icon }}
 rvm is not available through homebrew, hence I had to install it manually from <https://rvm.io>.
 
-#### Bundler (Ruby)
+#### {{ 'Bundler (Ruby)' | add_app_icon }}
 run `gem install bundler`, optionally check <http://bundler.io> for details
 
-#### Oh-My-Zsh
+#### {{ 'Oh-My-Zsh' | add_app_icon }}
 follow install instructions here: <http://ohmyz.sh>
 
-#### Things
+#### {{ 'Things' | add_app_icon }}
 install optional Things Helper from <https://culturedcode.com/things/mac/help/things-sandboxing-helper-download/>
 
 
@@ -65,19 +64,19 @@ Next I am putting down a list how to restore the preferences / states of the App
 
 **Apps marked with the ⚠️ require steps before a clean install.**
 
-#### 1Password ⚠️ 
+#### {{ '1Password' | add_app_icon }} ⚠️ 
 setup sync from old mac / installation
 
-#### Alfred ⚠️ 
+#### {{ 'Alfred' | add_app_icon }} ⚠️ 
 setup sync via Dropbox: <https://www.alfredapp.com/help/advanced/sync/>
 
-#### Dock 
+#### {{ 'Dock' | add_app_icon }}
 As of the Dock I want to have the same order and apps as on my Mac before. Luckily that's rather easy once you know the file you need to restore. 
 
 - Copy `~/Library/Preferences/com.apple.dock.plist`
 - Run `killall -9 Dock`
 
-#### Mail 
+#### {{ 'Mail' | add_app_icon }}
 
 Since I could not find a way to restore Mail from the TM Backup on macOS Sierra I ended up having to reconfigure all accounts. 
 
@@ -89,16 +88,16 @@ Check [here](https://www.macissues.com/2014/12/07/how-to-manually-restore-your-m
 
 
 
-#### Outbank
+#### {{ 'Outbank' | add_app_icon }}
 restore `~/Library/Containers/com.stoegerit.outbank.osx`
 
-#### Sequel Pro
+#### {{ 'Sequel Pro' | add_app_icon }}
 restore `~/Library/Application\ Support/Sequel\ Pro`
 
-#### Slack
+#### {{ 'Slack' | add_app_icon }}
 restore all logins by copying `~/Library/Containers/com.tinyspeck.slackmacgap`
 
-#### Terminal
+#### {{ 'Terminal' | add_app_icon }}
 Restore my custom Theme / Profile called *Cinery*:
     
 - install Source Code Pro Font: <https://github.com/adobe-fonts/source-code-pro>
