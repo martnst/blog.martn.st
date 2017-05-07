@@ -35,14 +35,10 @@ title: About Martin Stemmle
   </div>
   <div class="column-one-third">
       <div class="box">
-          <h3>Start-Up: CINEPASS</h3>
-          <p>CINEPASS is the easiest way to get your movie tickets in Germany.</p>
-          <p>Enjoying building things also lead me to start an own business. With <a href="http://www.cinery.de/" class="inline" target="_blank" style="white-space: nowrap;">Cinery <small><i class="fa fa-external-link"></i></small></a> we started off by buliding a state of the art iPhone app for cinema showtimes and ticketing. After merging with CINEPASS we now support all major platforms with fully native apps for 
-          <a href="https://itunes.apple.com/de/app/cinery-kinoprogramm-fur-deutschland/id835933514?l=de&ls=1&mt=8" class="inline" target="_blank" style="white-space: nowrap;">iOS <small><i class="fa fa-external-link"></i></small></a> 
-          and 
-          <a href="https://play.google.com/store/apps/details?id=de.cinepass.android" class="inline" target="_blank" style="white-space: nowrap;">Android <small><i class="fa fa-external-link"></i></small></a>
-          and a 
-          <a href="http://www.cinepass.de/" class="inline" target="_blank">responsive Website&nbsp;<small><i class="fa fa-external-link"></i></small></a> for every other device.</p>
+          <h3>Start-Up: <a href="https://www.internationalshowtimes.com" target="_blank">iShowtimes</a></h3>
+          <p>One easy API for worldwide movie showtime listings, ticketing links and movie meta data.</p>          
+          <p>Coming from a failed B2C case of building <a href="http://www.cinepass.de/" class="inline" target="_blank">a unified plattform for selling cinema online tickets in Germany</a>, we have changed our mission to provide the greatest API and data for showtimes not just in Germany but globally.</p>
+          <p>If you were to put any of the typical start-up roles on me, I would consider myself to be the <i>hands-on CTO</i> in the five heads team.</p>
       </div>
   </div>
 </section>
