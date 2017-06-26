@@ -5,8 +5,8 @@ title: Travels
 
 # Travels 
 
-- 07.05.2017 ⇢ … : 🇵🇹 Lisbon, Portugal
-- … ⇢ 13.07.2017: 🇵🇹 Porto, Portugal
+- 07.06.2017 ⇢ 06.07.2017 : 🇵🇹 Lisbon, Portugal
+- 06.07.2017 ⇢ 13.07.2017: 🇵🇹 Porto, Portugal
 - 13.07.2017 ⇢ 17.07.2017:  🇳🇱 Amsterdam, Netherlands
 - 17.07.2017 ⇢ 04.08.2017:  🇩🇪 Berlin, Germany
 - ….08.2017 ⇢ …?:  🇭🇺 Budapest, Hungary 
