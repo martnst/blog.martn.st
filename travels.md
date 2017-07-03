@@ -9,14 +9,15 @@ title: Travels
 - 06.07.2017 ⇢ 13.07.2017: 🇵🇹 Porto, Portugal
 - 13.07.2017 ⇢ 17.07.2017:  🇳🇱 Amsterdam, Netherlands
 - 17.07.2017 ⇢ 04.08.2017:  🇩🇪 Berlin, Germany
-- ….08.2017 ⇢ …?:  🇭🇺 Budapest, Hungary 
+- 07.08.2017 ⇢ 07.08.2017?:  🇭🇺 Budapest, Hungary 
+- 09.09.2017 ⇢ 10.09.2017:  🇵🇹 Lisbon, Portugal (<a href="http://www.dnxglobal.com", target="_blank">DNX ★ Digital Nomad Conference</a>)
 
 ## Next destinations 
 
-- …
+- 🇹🇭 Thailand for the winter
 
 
-## Past trips 
+## Past destinations & trips 
 
 - 04.06.2017 ⇢ 07.06.2017:  🇩🇪 Bonn & Cologne, Germany
 - 20.05.2017 ⇢ 04.06.2017:  🇨🇺 Cuba 🏖 - vacation
