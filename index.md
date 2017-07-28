@@ -48,6 +48,13 @@ title: Stuff made by Martin Stemmle
 <section>
     <a name="client-apps"></a>
     <h1 style="display: inline-block; margin-right: 0.2em; margin-top: 2.5em;">Client Apps &amp; Projects</h1><small>(extract)</small>
+    <a class="box" href="https://itunes.apple.com/app/floribus/id1238240638?mt=8" target="_blank" >
+        <img class="appicon" style="float: left; margin-right: 1em" width="125" height="125" alt="floribus App Icon" class="artwork" src="http://is2.mzstatic.com/image/thumb/Purple128/v4/dd/09/e5/dd09e5fb-3264-3ee3-ea4f-1af0e91e21b8/source/175x175bb.jpg">
+        <div>
+        <h3>floribus</h3>
+        <p class=" " style="height: auto;">Dein persönlicher Vermögensmanager für die Hosentasche.</p>
+        </div>
+    </a>    
     <a class="box" href="http://tapglue.com" target="_blank" >
         <img class="appicon" style="float: left; margin-right: 1em" width="125" height="125"  src="https://pbs.twimg.com/profile_images/644422900662030336/T2r0auCy_400x400.png" alt="Tapglue">
         <div>
