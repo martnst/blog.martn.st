@@ -16,6 +16,8 @@ navigation:
    url: /
  - title: Projects
    url: http://madeby.martn.st
+ - title: Travles
+   url: /travels
  - title: Blog
    url: http://blog.martn.st
 

@@ -5,24 +5,19 @@ title: Travels
 
 # Travels 
 
-- 07.06.2017 ⇢ 06.07.2017 : 🇵🇹 Lisbon, Portugal
-- 06.07.2017 ⇢ 13.07.2017: 🇵🇹 Porto, Portugal
-- 13.07.2017 ⇢ 17.07.2017:  🇳🇱 Amsterdam, Netherlands
-- 17.07.2017 ⇢ 04.08.2017:  🇩🇪 Berlin, Germany
-- 07.08.2017 ⇢ 07.08.2017?:  🇭🇺 Budapest, Hungary 
-- 09.09.2017 ⇢ 10.09.2017:  🇵🇹 Lisbon, Portugal (<a href="http://www.dnxglobal.com", target="_blank">DNX ★ Digital Nomad Conference</a>)
+You can <a href="https://nomadlist.com/@martn_st" target="_blank">find my past itinerary over here.</a>
 
-## Next destinations 
+## Next destinations  
 
-- 🇹🇭 Thailand for the winter
-
-
-## Past destinations & trips 
-
-- 04.06.2017 ⇢ 07.06.2017:  🇩🇪 Bonn & Cologne, Germany
-- 20.05.2017 ⇢ 04.06.2017:  🇨🇺 Cuba 🏖 - vacation
-- 23.04.2017 ⇢ 29.04.2017:  🇬🇷 Athens, Greece 
+- 💡 Mexico 
+- 🗓 Dec 2017 ⇢ Feb 2018: 🇹🇭 Thailand 
+- 🗓 Feb / Mar 2018: 🇩🇪 Germany, 🇦🇹 Alps ⛷ 
+- 💡 back to Asia 
+- 🗓 May16th ⇢  29th, 2018: <a href="http://nomadtrain.co" target="_blank">Nomad Train</a>
+- 💡 East Europe or Balkans
+- 💡 2-3 Month Berlin 🇩🇪
 
 
 
+🗓 Plan <br> 💡 Idea
 
