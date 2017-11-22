@@ -9,7 +9,7 @@ title: About Martin Stemmle
     <h1>Hi,</h1>
     <span>I am</span>
     <h2>Martin Stemmle</h2>
-    <span>, Indie-Developer, Freelancer, Co-Founder <br>and <a href="https://nomadlist.com/@martn_st" target="_blank">Digital Nomad</a> <strike>based in</strike> from Berlin.</span>
+    <span>, Indie-Developer, Freelancer, Co-Founder <br>and <a href="https://nomadlist.com/@martn_st" target="_blank">Digital Nomad</a> <strike>based in</strike> from 🇩🇪 Berlin<span id="currentCity"></span>.</span>
     <p>I mostly focus on iOS and Mac apps. However, I am open to all sorts of cool new stuff.</p>
   </div>
 </header>

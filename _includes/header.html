@@ -6,13 +6,25 @@
     <script type="text/javascript">
 
     let cities = {
-      berlin: [52.51, 13.37], 
-      libson: [38.708692, -9.1360469], 
-      budapest: [47.5029569, 19.0717836], 
-      laspalmas: [28.1173563, -15.4746366],
-      colon: [8.882942,-80.5625636], // panama
-      panama: [9.0817275,-79.5932219], // panam city 
-      bocas: [9.340774,-82.2467924] // panama
+      berlin: [52.51, 13.37]
+    }
+
+    function emojiFlag( country ){
+      const offset = 127397;
+      const A = 65;
+      const Z = 90;
+      const f = country.codePointAt(0);
+      const s = country.codePointAt(1);
+
+      if (
+        country.length !== 2
+        || f > Z || f < A
+        || s > Z || s < A
+      )
+        throw new Error('Not an alpha2 country code');
+
+      return String.fromCodePoint(f + offset)
+        +String.fromCodePoint(s + offset);
     }
 
     let today = new Date()
@@ -25,12 +37,7 @@
     ]
 
     var position = cities.berlin // fallback
-
-    itinerary.forEach(stop => {
-      if(stop.start < today) {
-        position = stop.city
-      }
-    })
+    var map
 
     function showGoogleMaps() {
      
@@ -110,6 +117,32 @@
      
     google.maps.event.addDomListener(window, 'load', showGoogleMaps);
     google.maps.event.addDomListener(window, 'resize', showGoogleMaps);
+
+    fetch('https://nomadlist.com/@martn_st.json') // Call the fetch function passing the url of the API as a parameter
+    .then(response => response.json())
+    .then(json => {
+      const dayInSeconds = 60 * 60 * 24
+      const maxTimeVisiting = 6 * dayInSeconds
+      var stayingVerb = json.location.people.epoch_end - json.location.people.epoch_start <= maxTimeVisiting ? 'visiting' : 'living in'
+      var cityAndCountry = `${json.location.people.city}, ${json.location.people.country}`      
+      console.log(`Martin currently lives in ${cityAndCountry}`)
+      geocoder = new google.maps.Geocoder()
+      geocoder.geocode({ 'address': cityAndCountry }, function(results, status){
+          if (status == google.maps.GeocoderStatus.OK) {
+            position = results[0].geometry.location
+            console.log(`Found location ${position} for ${cityAndCountry}`)
+            map.setCenter(position)
+          } else {
+            console.error('Could not find location for: ' + cityAndCountry)
+          }
+      });
+
+      document.getElementById('currentCity').textContent = `, currently ${stayingVerb} ${emojiFlag(json.location.people.country_code)} ${json.location.people.city}`
+    })
+    .catch(function(error) {
+      console.error(error)
+    })
+
     </script>
     <div id="googlempasoverlay"></div>
      <div class="container">
