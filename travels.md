@@ -5,11 +5,12 @@ title: Travels
 
 # Travels 
 
-You can <a href="https://nomadlist.com/@martn_st" target="_blank">find my past itinerary over here.</a>
+Here is a nice map (<a href="https://nomadlist.com/@martn_st" target="_blank">power by Nomad List</a>), which show past travels in green and future one in red lines. 
 
-## Next destinations  
+<iframe width="100%" height="350" style="background:#f9f9f9;" src="https://nomadlist.com/@martn_st/embed" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
-- 💡 Mexico 
+## Ideas and Plans for future Destinations  
+
 - 🗓 Dec 2017 ⇢ Feb 2018: 🇹🇭 Thailand 
 - 🗓 Feb / Mar 2018: 🇩🇪 Germany, 🇦🇹 Alps ⛷ 
 - 💡 back to Asia 
