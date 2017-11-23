@@ -6,7 +6,10 @@
     <script type="text/javascript">
 
     let cities = {
-      berlin: [52.51, 13.37]
+      berlin: {
+        lat: 52.51, 
+        lon: 13.37
+      }
     }
 
     function emojiFlag( country ){
@@ -37,86 +40,88 @@
     ]
 
     var position = cities.berlin // fallback
-    var map
 
-    function showGoogleMaps() {
-     
-        var latLng = new google.maps.LatLng(position[0], position[1]);
+    function createGoogleMap() {
+      var customMapType = new google.maps.StyledMapType([
+      {
+          stylers: [
+          {hue: '#53556A'},
+          {visibility: 'simplified'},
+          {gamma: 0.5},
+          {weight: 0.5}, 
+          {lightness: -60}
+          ]
+      },
+      {
+          elementType: 'labels',
+          stylers: [{visibility: 'on'}, {color: '#ffffff'}]
+      },
+      {
+          elementType: "labels.text.fill",
+          stylers: [
+              { lightness: 59 },
+              { gamma: 0.44 },
+              { color: "#DBDAE3" }
+          ]
+      },
+      {
+          elementType: "labels.text.stroke",
+          stylers: [ { visibility: "off" } ]
+      },
 
-        var customMapType = new google.maps.StyledMapType([
-        {
-            stylers: [
-            {hue: '#53556A'},
-            {visibility: 'simplified'},
-            {gamma: 0.5},
-            {weight: 0.5}, 
-            {lightness: -60}
-            ]
-        },
-        {
-            elementType: 'labels',
-            stylers: [{visibility: 'on'}, {color: '#ffffff'}]
-        },
-        {
-            elementType: "labels.text.fill",
-            stylers: [
-                { lightness: 59 },
-                { gamma: 0.44 },
-                { color: "#DBDAE3" }
-            ]
-        },
-        {
-            elementType: "labels.text.stroke",
-            stylers: [ { visibility: "off" } ]
-        },
+      {
+          featureType: 'water',
+          stylers: [{color: '#6E728D'}]
+      },
+      {
+          featureType: "road",
+          elementType: "labels",
+          stylers: [{visibility: "off"}]
+      },
+      {
+          featureType: "poi",
+          elementType: "labels",
+          stylers: [{visibility: "off"}]
+      },
+      {
+          featureType: "administrative.neighborhood",
+          elementType: "labels",
+          stylers: [{visibility: "off"}]
+      },
+      {
+          featureType: "road.local",
+          stylers: [{visibility: "off"}]
+      },
+      {
+        name: 'Custom Style'
+      }]);
+      var customMapTypeId = 'custom_style';
 
-        {
-            featureType: 'water',
-            stylers: [{color: '#6E728D'}]
-        },
-        {
-            featureType: "road",
-            elementType: "labels",
-            stylers: [{visibility: "off"}]
-        },
-        {
-            featureType: "poi",
-            elementType: "labels",
-            stylers: [{visibility: "off"}]
-        },
-        {
-            featureType: "administrative.neighborhood",
-            elementType: "labels",
-            stylers: [{visibility: "off"}]
-        },
-        {
-            featureType: "road.local",
-            stylers: [{visibility: "off"}]
-        },
-        {
-          name: 'Custom Style'
-        }]);
-        var customMapTypeId = 'custom_style';
+   
+      var mapOptions = {
+          zoom: 12, // initialize zoom level - the max value is 21
+          streetViewControl: false, // hide the yellow Street View pegman
+          scaleControl: false, // allow users to zoom the Google Map
+          mapTypeControl: false,
+          zoomControl: false,
+          rotateControl: false, 
+          // mapTypeId: [google.maps.MapTypeId.ROADMAP, customMapTypeId],
+          center: new google.maps.LatLng(cities.berlin.lat, cities.berlin.lon)
+      };
+      var map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
+      map.mapTypes.set(customMapTypeId, customMapType);
+      map.setMapTypeId(customMapTypeId);
+      return map 
+    }
 
-     
-        var mapOptions = {
-            zoom: 12, // initialize zoom level - the max value is 21
-            streetViewControl: false, // hide the yellow Street View pegman
-            scaleControl: false, // allow users to zoom the Google Map
-            mapTypeControl: false,
-            zoomControl: false,
-            rotateControl: false, 
-            // mapTypeId: [google.maps.MapTypeId.ROADMAP, customMapTypeId],
-            center: latLng
-        };
-     
-        map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
-        map.mapTypes.set(customMapTypeId, customMapType);
-        map.setMapTypeId(customMapTypeId);
+    var map = createGoogleMap()
+
+    function updateMapCenter() {
+      map.setCenter(position)
     }
      
-    google.maps.event.addDomListener(window, 'load', showGoogleMaps);
-    google.maps.event.addDomListener(window, 'resize', showGoogleMaps);
+    google.maps.event.addDomListener(window, 'load', updateMapCenter);
+    google.maps.event.addDomListener(window, 'resize', updateMapCenter);
 
     fetch('https://nomadlist.com/@martn_st.json') // Call the fetch function passing the url of the API as a parameter
     .then(response => response.json())
@@ -131,13 +136,17 @@
           if (status == google.maps.GeocoderStatus.OK) {
             position = results[0].geometry.location
             console.log(`Found location ${position} for ${cityAndCountry}`)
-            map.setCenter(position)
+            updateMapCenter()
           } else {
             console.error('Could not find location for: ' + cityAndCountry)
           }
       });
 
-      document.getElementById('currentCity').textContent = `, currently ${stayingVerb} ${emojiFlag(json.location.people.country_code)} ${json.location.people.city}`
+
+      var currentCityElement = document.getElementById('currentCity')
+      if (currentCityElement) {
+        currentCityElement.textContent = `, currently ${stayingVerb} ${emojiFlag(json.location.people.country_code)} ${json.location.people.city}`
+      }
     })
     .catch(function(error) {
       console.error(error)
