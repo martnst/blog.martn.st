@@ -5,7 +5,7 @@ title: Travels
 
 # Travels 
 
-Here is a nice map (<a href="https://nomadlist.com/@martn_st" target="_blank">power by Nomad List</a>), which shows past travels in green and future one in red lines. 
+Here is a nice map (<a href="https://nomadlist.com/@martn_st" target="_blank">power by Nomad List, click for details</a>), which shows past travels in green and future one in red lines. 
 
 <iframe width="100%" height="350" style="background:#f9f9f9;" src="https://nomadlist.com/@martn_st/embed" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
