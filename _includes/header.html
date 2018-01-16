@@ -128,8 +128,8 @@
     .then(json => {
       const dayInSeconds = 60 * 60 * 24
       const maxTimeVisiting = 6 * dayInSeconds
-      var stayingVerb = json.location.people.epoch_end - json.location.people.epoch_start <= maxTimeVisiting ? 'visiting' : 'living in'
-      var cityAndCountry = `${json.location.people.city}, ${json.location.people.country}`      
+      var stayingVerb = json.location.now.epoch_end - json.location.now.epoch_start <= maxTimeVisiting ? 'visiting' : 'living in'
+      var cityAndCountry = `${json.location.now.city}, ${json.location.now.country}`
       console.log(`Martin currently lives in ${cityAndCountry}`)
       geocoder = new google.maps.Geocoder()
       geocoder.geocode({ 'address': cityAndCountry }, function(results, status){
@@ -145,7 +145,7 @@
 
       var currentCityElement = document.getElementById('currentCity')
       if (currentCityElement) {
-        currentCityElement.textContent = `, currently ${stayingVerb} ${emojiFlag(json.location.people.country_code)} ${json.location.people.city}`
+        currentCityElement.textContent = `, currently ${stayingVerb} ${emojiFlag(json.location.now.country_code)} ${json.location.now.city}`
       }
     })
     .catch(function(error) {
