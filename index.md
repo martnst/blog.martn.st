@@ -12,6 +12,13 @@ title: Stuff made by Martin Stemmle
       <p class=" " style="height: auto;">Foody is a food and symptom diary app to help understand diet related health issues. </p>
       </div>
   </a>
+  <a class="box" href="https://nomad.bingo" style="opacity: 1;">
+      <img class="appicon" style="float: left; margin-right: 1em" width="125" height="125" alt="CINEPASS - Kino, Kinoprogramm, Filmempfehlungen und Trailer" src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f5/16/65/f51665f7-7c31-62ad-a933-047dd39dc167/AppIcon-1x_U007emarketing-85-220-4.png/230x0w.jpg">
+      <div>
+      <h3>Nomad Bingo</h3>
+      <p class=" " style="height: auto;">The ultimate bullshit bingo game for talks at digital nomad meetups and conferences.</p>
+      </div>
+  </a>
   <a class="box" href="http://msmix.de/apps/Birthdays" style="opacity: 1;">
       <img style="float: left; margin-right: 1em" width="135" height="135" alt="Birthdays - Widget for upcoming birthdays at a glance" src-swap-high-dpi="http://a1.mzstatic.com/us/r30/Purple3/v4/ab/1f/03/ab1f0385-dde5-825c-5773-a182ac930142/icon256-2x.png" src-load-auto-after-dom-load="" src-swap="http://a3.mzstatic.com/us/r30/Purple3/v4/ab/1f/03/ab1f0385-dde5-825c-5773-a182ac930142/icon256.png" class="artwork" src="http://a3.mzstatic.com/us/r30/Purple3/v4/ab/1f/03/ab1f0385-dde5-825c-5773-a182ac930142/icon256.png">
       <div>
