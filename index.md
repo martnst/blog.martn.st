@@ -43,7 +43,7 @@ title: Stuff made by Martin Stemmle
   </a>
   <a class="box" href="http://calexapp.com" style="opacity: 1;">
       <img style="float: left; margin-right: 1em" width="125" height="125" alt="Calex - The Calendar Exporter" src-swap-high-dpi="http://a3.mzstatic.com/us/r30/Purple/v4/ac/ea/69/acea6935-8a03-c887-4f37-62d952cf64fa/calex_icon.350x350-75.png" src-load-auto-after-dom-load="" src-swap="http://a4.mzstatic.com/us/r30/Purple/v4/ac/ea/69/acea6935-8a03-c887-4f37-62d952cf64fa/calex_icon.175x175-75.png" class="artwork" src="http://a4.mzstatic.com/us/r30/Purple/v4/ac/ea/69/acea6935-8a03-c887-4f37-62d952cf64fa/calex_icon.175x175-75.png">
-      <img class="appicon" style="float: left; margin-right: 1em" width="125" height="125" alt="Calex" src-swap-high-dpi="http://a4.mzstatic.com/us/r30/Purple6/v4/f0/a9/cf/f0a9cf9b-a193-fafb-9fbe-aefee2e2f9e3/mzl.dvnjhyis.350x350-75.jpg" src-load-auto-after-dom-load="" src-swap="http://a5.mzstatic.com/us/r30/Purple6/v4/f0/a9/cf/f0a9cf9b-a193-fafb-9fbe-aefee2e2f9e3/mzl.dvnjhyis.175x175-75.jpg" src="http://a5.mzstatic.com/us/r30/Purple6/v4/f0/a9/cf/f0a9cf9b-a193-fafb-9fbe-aefee2e2f9e3/mzl.dvnjhyis.175x175-75.jpg">
+      <img class="appicon" style="float: left; margin-right: 1em" width="125" height="125" alt="Calex" src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/d9/c8/9d/d9c89d4a-42cb-3770-ea74-57ea1bbff052/mzl.lglrrxax.png/230x0w.jpg">
       <div>
       <h3>Calex - The Calendar Exporter</h3>
       <p class=" " style="height: auto;">Arrange appointments more easily. Simply share an proper extract of your calendars. Available for Mac OS X and iOS.</p>
